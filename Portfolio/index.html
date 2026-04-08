@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitali Khamkar | Application Developer</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Glow Effects -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="#hero" class="nav-logo">Mitali<span>.</span></a>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+        </ul>
+        <a href="#contact" class="nav-cta">Let's Talk</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section-hidden">
+        <div class="hero-content">
+            <h2 class="greeting">Hi, I'm</h2>
+            <h1 class="name">Mitali Khamkar</h1>
+            <h3 class="role">Application Developer</h3>
+            <p class="tagline">From logic to layout — developing across the full stack.</p>
+            <p class="sub-tagline">BSc IT student building real-world applications — from 3D fashion-tech experiences to interactive learning tools. Currently expanding into the full stack, one project at a time.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="avatar-container">
+                <img src="assets/avatar.png" alt="Mitali Khamkar Avatar" class="avatar" onerror="this.src='https://placehold.co/400x500/101010/a855f7?text=Mitali'">
+                <div class="avatar-glow"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-hidden">
+        <div class="section-title">
+            <h2>About Me</h2>
+            <div class="title-underline"></div>
+        </div>
+        <div class="about-container">
+            <div class="about-text">
+                <p>I'm Mitali, a final-year BSc IT student at D.G. Ruparel College, Mumbai. I enjoy building things that sit at the intersection of functionality and design — whether that's an interactive web game, a restaurant website with a thoughtful UI, or a mobile app that lets users dress digital avatars in 3D.</p>
+                <p>My foundation is in C, C++, HTML, CSS, and Python. I'm actively expanding into the JavaScript ecosystem — React.js, React Native, Node.js, and MongoDB — with real projects driving that learning, not just tutorials.</p>
+                <p>I'm looking for opportunities where I can contribute meaningfully, keep growing, and work on products that reach real users.</p>
+            </div>
+            <div class="about-stats">
+                <div class="stat-card tilt-element">
+                    <h3 class="stat-num">9.9</h3>
+                    <p class="stat-label">CGPA</p>
+                </div>
+                <div class="stat-card tilt-element">
+                    <h3 class="stat-num">4+</h3>
+                    <p class="stat-label">Projects Built</p>
+                </div>
+                <div class="stat-card tilt-element">
+                    <h3 class="stat-num">3</h3>
+                    <p class="stat-label">Certifications earned</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section-hidden">
+        <div class="section-title">
+            <h2>My Skills</h2>
+            <div class="title-underline"></div>
+        </div>
+        <div class="skills-container">
+            <div class="skill-category tilt-element">
+                <h3>Languages</h3>
+                <div class="skill-list">
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">C++</span>
+                    <span class="skill-tag">C</span>
+                    <span class="skill-tag">HTML5</span>
+                    <span class="skill-tag">CSS3</span>
+                </div>
+            </div>
+            <div class="skill-category highlight tilt-element">
+                <h3><i class="fa-solid fa-fire"></i> Currently Learning</h3>
+                <div class="skill-list">
+                    <span class="skill-tag highlight-tag">React.js</span>
+                    <span class="skill-tag highlight-tag">React Native</span>
+                    <span class="skill-tag highlight-tag">Node.js</span>
+                    <span class="skill-tag highlight-tag">Express.js</span>
+                    <span class="skill-tag highlight-tag">MongoDB</span>
+                </div>
+            </div>
+            <div class="skill-category tilt-element">
+                <h3>Tools</h3>
+                <div class="skill-list">
+                    <span class="skill-tag">Git & GitHub</span>
+                    <span class="skill-tag">VS Code</span>
+                    <span class="skill-tag">Blender</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-hidden">
+        <div class="section-title">
+            <h2>Featured Projects</h2>
+            <div class="title-underline"></div>
+        </div>
+        
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card tilt-element">
+                <div class="project-image">
+                    <img src="assets/glamware.png" alt="Glamware App" onerror="this.src='https://placehold.co/600x400/101010/ec4899?text=Glamware'">
+                </div>
+                <div class="project-info">
+                    <span class="project-badge highlight-badge">Major Project</span>
+                    <h3>Glamware</h3>
+                    <p>A fashion-tech mobile application where users create customizable avatars and experiment with virtual outfits. Integrates 3D models built in Blender into a React Native interface, with a Node.js and MongoDB backend.</p>
+                    <div class="project-tech">
+                        <span>React Native</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                        <span>Blender</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card tilt-element">
+                <div class="project-image">
+                    <img src="assets/culina.png" alt="Culina Website" onerror="this.src='https://placehold.co/600x400/101010/a855f7?text=Culina'">
+                </div>
+                <div class="project-info">
+                    <span class="project-badge">Ongoing</span>
+                    <h3>Culina</h3>
+                    <p>A restaurant website focused on clean UI/UX and structured design. Implements modern aesthetic principles for a seamless browsing experience.</p>
+                    <div class="project-tech">
+                        <span>HTML/CSS</span>
+                        <span>JavaScript</span>
+                        <span>UI/UX Design</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card tilt-element">
+                <div class="project-info full-width">
+                    <span class="project-badge educational">Educational</span>
+                    <h3>Fraction Learning Game</h3>
+                    <p>An interactive web game built to help students understand fractions visually. Features gamified elements to boost engagement and retention.</p>
+                    <div class="project-tech">
+                        <span>JavaScript</span>
+                        <span>Interactive UI</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-card tilt-element">
+                <div class="project-info full-width">
+                    <span class="project-badge backend">Backend API</span>
+                    <h3>Lead Workflow System</h3>
+                    <p>A backend system demonstrating validation, classification, and action triggers using modular architecture.</p>
+                    <div class="project-tech">
+                        <span>Node.js</span>
+                        <span>Modular Architecture</span>
+                        <span>API Design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Certifications -->
+    <section id="education" class="education section-hidden">
+        <div class="section-title">
+            <h2>Education & Certifications</h2>
+            <div class="title-underline"></div>
+        </div>
+        
+        <div class="edu-cert-container">
+            <!-- Education Timeline -->
+            <div class="timeline">
+                <h3><i class="fa-solid fa-graduation-cap"></i> Education</h3>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>BSc Information Technology</h4>
+                        <span class="timeline-date">Graduating 2026</span>
+                        <p>D.G. Ruparel College, Mumbai • <strong>CGPA: 9.9</strong></p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>Higher Secondary Certificate (HSC)</h4>
+                        <p><strong>Score: 84.83%</strong></p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>Secondary School Certificate (SSC)</h4>
+                        <p><strong>Score: 91.60%</strong></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certifications -->
+            <div class="certifications">
+                <h3><i class="fa-solid fa-certificate"></i> Certifications</h3>
+                <div class="cert-list">
+                    <div class="cert-card tilt-element">
+                        <i class="fa-solid fa-c"></i>
+                        <span>C Programming</span>
+                    </div>
+                    <div class="cert-card tilt-element">
+                        <i class="fa-brands fa-cuttlefish"></i>
+                        <span>C++ Certification</span>
+                    </div>
+                    <div class="cert-card tilt-element">
+                        <i class="fa-solid fa-robot"></i>
+                        <span>AI for Beginners</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-hidden">
+        <div class="contact-card glass-panel">
+            <h2>Let's build something amazing.</h2>
+            <p>I'm currently available for opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+            <div class="status-indicator">
+                <span class="pulse"></span> Available for opportunities
+            </div>
+            
+            <div class="contact-links">
+                <a href="https://github.com/mitalikhamkar" target="_blank" class="social-btn">
+                    <i class="fa-brands fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://www.linkedin.com/in/mitali-khamkar" target="_blank" class="social-btn linkedin">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <span>LinkedIn</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Mitali Khamkar. Designed & Built with passion.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
